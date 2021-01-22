@@ -18,6 +18,36 @@ body{
 }
 
 #gallery_container{
+  .search_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 42px 0 45px;
+    label{
+      color: #888888;
+      font-size: 20px;
+      margin: 0;
+      padding-right: 5px;
+    }
+    .search_box{
+      position: relative;
+      #search{
+        width: 281px;
+        padding: 12px 0;
+        border: 0px;
+        background-color: #ECECEC;
+        border-radius: 8px;
+      }
+      img{
+        width: 29px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
   .card_gallery{
     margin-bottom: 15px;
     border-radius: 8px;
@@ -60,5 +90,17 @@ body{
         }
       }
     }
+  }
+}
+
+#load_more_items_gallery{
+  color: $color-primary;
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  margin-top: 55px;
+  margin-bottom: 100px;
+  &:hover{
+    cursor: pointer;
   }
 }
