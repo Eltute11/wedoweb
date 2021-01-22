@@ -39,4 +39,60 @@ body {
   margin: 0;
   padding-top: 100px;
 }
+
+#gallery_container .card_gallery {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#gallery_container .card_gallery .card_top {
+  width: 100%;
+  height: 279px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery_container .card_gallery .card_bottom {
+  padding: 12px 10px;
+  background-color: rgba(214, 213, 214, 0.45);
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit .card_avatar img {
+  width: 46px;
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit .card_text {
+  margin-left: 14px;
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit .card_text p {
+  margin: 0;
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit .card_text .title {
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#gallery_container .card_gallery .card_bottom .card_credit .card_text .hashtag {
+  color: #313131;
+  font-size: 14px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
