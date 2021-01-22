@@ -1,0 +1,13 @@
+footer{
+  background-color: $color-black;
+  border-top: 6px solid $color-primary;
+  #logo_footer{
+    width: 100%;
+    max-width: 144px;
+  }
+  .copyright{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

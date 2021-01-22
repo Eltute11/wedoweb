@@ -19,6 +19,22 @@ header .btn_login {
   border-radius: 8px;
 }
 
+footer {
+  background-color: #313131;
+  border-top: 6px solid #C23F81;
+}
+
+footer #logo_footer {
+  width: 100%;
+  max-width: 144px;
+}
+
+footer .copyright {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
