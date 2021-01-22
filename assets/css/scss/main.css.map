@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "utils/_glob.scss",
+        "utils/_variables.scss",
+        "utils/_mixins.scss",
+        "layout/_glob.scss",
+        "layout/_header.scss",
+        "layout/_footer.scss",
+        "pages/_glob.scss",
+        "pages/_gallery.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
