@@ -36,6 +36,11 @@ body{
 }
 
 #gallery_container{
+  .item_hidden{
+    transition: all ease 300ms;
+    height: 0;
+    overflow: hidden;
+  }
   .search_container{
     display: flex;
     flex-direction: row;
@@ -67,6 +72,7 @@ body{
     }
   }
   .card_gallery{
+    height: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
     overflow: hidden;
@@ -76,6 +82,12 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      overflow: hidden;
+      transition: all ease 300ms;
+      z-index: 1;
+      &:hover{
+        transform: scale(1.2);
+      }
       @include media-breakpoint-down(md) {
         height: 200px;
       }
@@ -84,8 +96,10 @@ body{
       }
     }
     .card_bottom{
-      padding: 12px 10px;
-      background-color: rgba(214, 213, 214, 0.45);
+      position: relative;
+      padding: 12px 0px 25px;
+      background-color: #ffffff;
+      z-index: 2;
       .card_credit{
         display: flex;
         align-items: center;
@@ -127,4 +141,15 @@ body{
   &:hover{
     cursor: pointer;
   }
+  &:focus{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    outline: 0;
+  }
+}
+.hidden{
+  display: none;
+}
+a{
+  text-decoration: none !important;
 }

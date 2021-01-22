@@ -13,10 +13,10 @@ header .btn_login {
   font-size: 16px;
   font-weight: 500;
   background-color: #C23F81;
-  padding: 10px 20px;
+  padding: 12px 30px;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 28px;
 }
 
 footer {
@@ -76,6 +76,13 @@ body {
   padding-top: 100px;
 }
 
+#gallery_container .item_hidden {
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+  height: 0;
+  overflow: hidden;
+}
+
 #gallery_container .search_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,6 +127,7 @@ body {
 }
 
 #gallery_container .card_gallery {
+  height: 100%;
   margin-bottom: 15px;
   border-radius: 8px;
   overflow: hidden;
@@ -131,6 +139,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+  z-index: 1;
+}
+
+#gallery_container .card_gallery .card_top:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 767px) {
@@ -146,8 +163,10 @@ body {
 }
 
 #gallery_container .card_gallery .card_bottom {
-  padding: 12px 10px;
-  background-color: rgba(214, 213, 214, 0.45);
+  position: relative;
+  padding: 12px 0px 25px;
+  background-color: #ffffff;
+  z-index: 2;
 }
 
 #gallery_container .card_gallery .card_bottom .card_credit {
@@ -198,5 +217,19 @@ body {
 
 #load_more_items_gallery:hover {
   cursor: pointer;
+}
+
+#load_more_items_gallery:focus {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  outline: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none !important;
 }
 /*# sourceMappingURL=main.css.map */
