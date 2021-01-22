@@ -1,0 +1,18 @@
+header{
+  padding-top: 18px;
+  padding-bottom: 13px;
+  #logo_header{
+    width: 100%;
+    max-width: 197px;
+  }
+  .btn_login{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: $color-primary;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+}
