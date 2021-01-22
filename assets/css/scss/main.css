@@ -113,6 +113,18 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 767px) {
+  #gallery_container .card_gallery .card_top {
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  #gallery_container .card_gallery .card_top {
+    height: 279px;
+  }
+}
+
 #gallery_container .card_gallery .card_bottom {
   padding: 12px 10px;
   background-color: rgba(214, 213, 214, 0.45);
