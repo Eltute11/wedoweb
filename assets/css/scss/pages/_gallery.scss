@@ -71,6 +71,13 @@ body{
       height: 25px;
     }
   }
+  .suggested{
+    color: #ffffff;
+    font-weight: 300;
+    span{
+      font-weight: 500;
+    }
+  }
 }
 #gallery_container{
   .item_hidden{

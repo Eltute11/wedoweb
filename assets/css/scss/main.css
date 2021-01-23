@@ -118,6 +118,15 @@ body {
   height: 25px;
 }
 
+.search_container .suggested {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.search_container .suggested span {
+  font-weight: 500;
+}
+
 #gallery_container .item_hidden {
   -webkit-transition: all ease 300ms;
   transition: all ease 300ms;
