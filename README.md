@@ -1,3 +1,5 @@
-### Link de acceso al sitio
+# We Do Web - Challenge!
 
- https://eltute11.github.io/wedoweb/index.html
+## Mejoras del sitio
+En esta rama se encuentra las mejoras de funcionalidades y correcciones.
+Para visualizarlo se debe descargar la rama correspondiente.
