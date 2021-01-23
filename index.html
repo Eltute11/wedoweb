@@ -22,7 +22,7 @@
             </a>
           </div>
           <div class="col-auto">
-            <a href="#" class="btn_login">Login</a>
+            <a href="#" class="btn_medium_primary">Login</a>
           </div>
         </div>
       </div>
@@ -32,7 +32,13 @@
     <!-- Comienzo de hero -->
     <div class="hero">
       <div class="container">
-        <h1>Gallery</h1>
+        <div class="search_container">
+          <h1>Check out the amazing photos our team uploaded this week</h1>
+          <div class="search_box">
+            <input type="text" name="search" id="search" placeholder="Search hashtag">
+            <i class="search_icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></i>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Fin de hero -->
@@ -40,20 +46,6 @@
     <!-- Comienzo de galería -->
     <section id="gallery_container">
       <div class="container">
-
-        <!-- Comienzo de buscador -->
-        <div class="row justify-content-end">
-          <div class="col-md-auto">
-            <div class="search_container">
-              <label for="search">Search by #</label>
-              <div class="search_box">
-                <input type="text" name="search" id="search">
-                <img src="assets/img/icon_search.png" alt="icon search">
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Fin de buscador -->
 
         <!-- Comienzo de listado -->
         <div class="row main_gallery">
@@ -252,7 +244,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <button id="load_more_items_gallery">Load More</button>
+          <button class="btn_medium_primary" id="load_more_items_gallery">Load More</button>
         </div>
         <!-- Fin botón Load More -->
 
