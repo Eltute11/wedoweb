@@ -147,7 +147,7 @@ body {
   background-color: #C71A65;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   .hero {
     height: 117px;
   }
@@ -157,7 +157,7 @@ body {
   z-index: 5;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   .hero .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -174,7 +174,7 @@ body {
   letter-spacing: 2.6px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   .hero .container h1 {
     font-size: 40px;
     padding-top: 66px;
@@ -197,7 +197,7 @@ body {
   padding: 42px 0 45px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .search_container {
     padding: 10px 0 15px;
   }
@@ -210,7 +210,7 @@ body {
   padding-right: 8px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .search_container label {
     display: none;
   }
@@ -220,7 +220,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .search_container .search_box {
     width: 261px;
     margin-left: auto;
@@ -236,7 +236,7 @@ body {
   border-radius: 8px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .search_container .search_box #search {
     width: 100%;
     padding: 9px 10px 8px;
@@ -252,7 +252,7 @@ body {
           transform: translateY(-50%);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .search_container .search_box img {
     width: 18px;
   }
@@ -264,7 +264,7 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   #gallery_container .card_gallery {
     margin-left: 17px;
     margin-right: 17px;
